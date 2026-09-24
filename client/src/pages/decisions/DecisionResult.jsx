@@ -1083,7 +1083,16 @@ function DecisionResult() {
                         </button>
 
                     )}
-
+                    <button
+                        className="result-primary-button"
+                        onClick={() =>
+                        navigate(
+                        "/dashboard"
+                    )
+                    }
+                >
+                 ✓ Finish Decision
+                </button>
                 </div>
 
             </main>
