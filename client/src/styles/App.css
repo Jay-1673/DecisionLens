@@ -1,0 +1,16 @@
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.app p {
+    font-size: 18px;
+}
